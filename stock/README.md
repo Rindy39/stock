@@ -1,18 +1,6 @@
-![image](https://user-images.githubusercontent.com/63364350/140642301-d7c7f197-77c9-4c2a-826c-b34269a31ca9.png)
+Project yang kami deploy menjadi web aplikasi berupa clustering dan prediksi dari saham indonesia yang diambil dari data saham indonesia yang disediakan oleh yahoo finance secara update dari 1 Januari 2016 sampai 30 November 2021.
+Kami melakukan clustering berdasarkan open dan close price dari masing-masing saham yang nantinya dikelompokkan menjadi 5 cluster dengan keterangan cluster 1 menunjukkan harga open dan close price yang tinggi, dan seterusnya.
+Algoritma yang digunakan dalam pembuatan model ini adalah K-Means Clustering dengan penentuan k optimal sebanyak 5 menggunakan metode elbow. Dengan adanya model ini diharapkan dapat membantu klasterisasi dan prediksi saham Indonesia berdasarkan open price dan close price sehingga dapat digunakan pelaku pasar saham dalam pengambilan keputusan.
 
-# StockMarketPrediction-Unsupervised-KMean-Deployment-Heroku
-
-This Repository talks about the stock market prediction based on the dataset which does not have label. Hence there is a need for a model which can predict from the input features based on the similar properties and group them into a clusters . Kmean Algorithm is used in order to predict the model . Further the web framework is created using Flask and deployed it on to the Heroku platform 
-
-Please find below the deployable link for your reference: 
-https://unsuperstock.herokuapp.com/
-
-Here based on the clusters , the result will be displayed in the groups: 
-
-![image](https://user-images.githubusercontent.com/63364350/140642345-a3c2b147-6d18-4d15-9e9f-0a9b98876fa8.png)
-
-Softwares used for implementation:
-1. Python 3.8 - JupyterNotebook & Pycharm
-2. Flask for web Framework
-3. HTML/CSS
-4. Heroku 
+Link website : https://clus-stock.herokuapp.com/
+ 
